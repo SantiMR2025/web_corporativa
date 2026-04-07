@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FoodLogístic — Fresh Food</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- ================================================
+       NAVBAR
+  ================================================ -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+
+      <!-- Logo text corporatiu -->
+      <a href="#inici" class="nav-logo">
+        <span class="logo-main">FOODLOGÍSTIC</span>
+        <span class="logo-sub">FRESH FOOD</span>
+      </a>
+
+      <!-- Botó hamburguesa per a mòbil -->
+      <button class="nav-toggle" id="navToggle" aria-label="Obrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Menú de navegació -->
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#inici"         class="nav-link">Inici</a></li>
+          <li><a href="#serveis"       class="nav-link">Serveis</a></li>
+          <li><a href="#sobre"         class="nav-link">Sobre nosaltres</a></li>
+          <li><a href="#contacte"      class="nav-link">Contacte</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- ================================================
+       SECCIÓ: INICI
+  ================================================ -->
+  <section class="hero" id="inici">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="hero-badge">🌿 Fresh Food Logistics</span>
+      <h1>Transportem Frescor,<br/>Garantim Qualitat</h1>
+      <p>
+        Experts en logística d'aliments frescos i refrigerats.
+        Portem els millors productes des de l'origen fins a la seva taula,
+        amb la màxima rapidesa i fiabilitat.
+      </p>
+      <div class="hero-buttons">
+        <a href="#serveis" class="btn btn-primary">Els nostres serveis</a>
+        <a href="#contacte" class="btn btn-outline">Contacta'ns</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <strong>+500</strong>
+          <span>Clients actius</span>
+        </div>
+        <div class="stat">
+          <strong>+20</strong>
+          <span>Anys d'experiència</span>
+        </div>
+        <div class="stat">
+          <strong>24/7</strong>
+          <span>Servei continu</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       SECCIÓ: SERVEIS
+  ================================================ -->
+  <section class="section" id="serveis">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">El que oferim</span>
+        <h2>Els Nostres Serveis</h2>
+        <p>Solucions logístiques completes per a la indústria alimentària</p>
+      </div>
+
+      <div class="services-grid">
+
+        <!-- Servei 1 -->
+        <div class="service-card">
+          <div class="service-icon">🚛</div>
+          <h3>Transport Refrigerat</h3>
+          <p>
+            Flota de vehicles de fred controlat per garantir la cadena de
+            fred en tot moment. Temperatura monitoritzada en temps real.
+          </p>
+          <ul class="service-features">
+            <li>✓ Temperatura entre -18°C i +8°C</li>
+            <li>✓ GPS i monitoratge 24h</li>
+            <li>✓ Cobertura nacional i internacional</li>
+          </ul>
+        </div>
+
+        <!-- Servei 2 -->
+        <div class="service-card">
+          <div class="service-icon">🏭</div>
+          <h3>Emmagatzematge Frigorífic</h3>
+          <p>
+            Instal·lacions de fred industrial amb capacitat per a grans
+            volums de producte fresc, congelat i sec.
+          </p>
+          <ul class="service-features">
+            <li>✓ Cambres de congelació i refrigeració</li>
+            <li>✓ Gestió d'estoc en temps real</li>
+            <li>✓ Certificació IFS Logistics</li>
+          </ul>
+        </div>
+
+        <!-- Servei 3 -->
+        <div class="service-card">
+          <div class="service-icon">📦</div>
+          <h3>Distribució Last Mile</h3>
+          <p>
+            Lliurament directe a supermercats, restaurants i punts de
+            venda finals. Rapidesa i puntualitat garantides.
+          </p>
+          <ul class="service-features">
+            <li>✓ Lliurament en 24/48h</li>
+            <li>✓ Traçabilitat completa</li>
+            <li>✓ Confirmació digital de lliurament</li>
+          </ul>
+        </div>
+
+        <!-- Servei 4 -->
+        <div class="service-card">
+          <div class="service-icon">🌍</div>
+          <h3>Importació i Exportació</h3>
+          <p>
+            Gestió completa de la logística internacional d'aliments,
+            incloent duanes, documentació i transport multimodal.
+          </p>
+          <ul class="service-features">
+            <li>✓ Gestió duanera completa</li>
+            <li>✓ Transport marítim i aeri</li>
+            <li>✓ +30 països de cobertura</li>
+          </ul>
+        </div>
+
+        <!-- Servei 5 -->
+        <div class="service-card">
+          <div class="service-icon">📋</div>
+          <h3>Consultoria Logística</h3>
+          <p>
+            Anàlisi i optimització de la cadena de subministrament
+            alimentari per millorar l'eficiència i reduir costos.
+          </p>
+          <ul class="service-features">
+            <li>✓ Auditoria de processos</li>
+            <li>✓ Pla de millora personalitzat</li>
+            <li>✓ Formació i acompanyament</li>
+          </ul>
+        </div>
+
+        <!-- Servei 6 -->
+        <div class="service-card">
+          <div class="service-icon">🔬</div>
+          <h3>Control de Qualitat</h3>
+          <p>
+            Verificació i control de la qualitat dels productes alimentaris
+            en totes les fases del transport i emmagatzematge.
+          </p>
+          <ul class="service-features">
+            <li>✓ Controls APPCC</li>
+            <li>✓ Laboratori propi</li>
+            <li>✓ Certificació ISO 22000</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       SECCIÓ: SOBRE NOSALTRES
+  ================================================ -->
+  <section class="section section-alt" id="sobre">
+    <div class="container">
+      <div class="about-grid">
+
+        <!-- Text -->
+        <div class="about-text">
+          <span class="section-badge">La nostra història</span>
+          <h2>Sobre Nosaltres</h2>
+          <p>
+            <strong>FoodLogístic S.A.</strong> és una empresa catalana fundada l'any 2004,
+            especialitzada en la logística integral d'aliments frescos i refrigerats.
+            Amb més de 20 anys d'experiència, ens hem consolidat com un dels referents
+            del sector a nivell nacional.
+          </p>
+          <p>
+            La nostra missió és garantir que els aliments arribin en les millors
+            condicions possibles, respectant la cadena de fred i complint amb totes
+            les normatives sanitàries i de qualitat alimentària vigents.
+          </p>
+          <p>
+            Comptem amb una flota de més de <strong>150 vehicles refrigerats</strong>,
+            tres centres logístics estratègicament ubicats a Catalunya, i un equip
+            de més de <strong>400 professionals</strong> compromesos amb l'excel·lència.
+          </p>
+          <div class="about-values">
+            <div class="value-item">
+              <span class="value-icon">🌿</span>
+              <div>
+                <strong>Sostenibilitat</strong>
+                <p>Compromesos amb el medi ambient i la reducció d'emissions</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <span class="value-icon">🏆</span>
+              <div>
+                <strong>Excel·lència</strong>
+                <p>Qualitat certificada en tots els nostres processos</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <span class="value-icon">🤝</span>
+              <div>
+                <strong>Confiança</strong>
+                <p>Relacions duradores basades en la transparència</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Estadístiques / Xifres clau -->
+        <div class="about-stats">
+          <div class="stats-grid">
+            <div class="stats-card">
+              <strong>150+</strong>
+              <span>Vehicles refrigerats</span>
+            </div>
+            <div class="stats-card">
+              <strong>400+</strong>
+              <span>Professionals</span>
+            </div>
+            <div class="stats-card">
+              <strong>3</strong>
+              <span>Centres logístics</span>
+            </div>
+            <div class="stats-card">
+              <strong>20+</strong>
+              <span>Anys d'experiència</span>
+            </div>
+            <div class="stats-card">
+              <strong>500+</strong>
+              <span>Clients satisfets</span>
+            </div>
+            <div class="stats-card">
+              <strong>30+</strong>
+              <span>Països de cobertura</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       SECCIÓ: CONTACTE
+  ================================================ -->
+  <section class="section" id="contacte">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Parlem</span>
+        <h2>Contacte</h2>
+        <p>Poseu-vos en contacte amb nosaltres i us respondrem en menys de 24h</p>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- Informació de contacte -->
+        <div class="contact-info">
+          <h3>Informació de contacte</h3>
+
+          <div class="contact-item">
+            <span class="contact-icon">📍</span>
+            <div>
+              <strong>Adreça</strong>
+              <p>Polígon Industrial Can Salvatella,<br/>
+                 Carrer de la Logística, 42<br/>
+                 08210 Barberà del Vallès, Barcelona</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-icon">📞</span>
+            <div>
+              <strong>Telèfon</strong>
+              <p>+34 93 721 00 00</p>
+              <p>+34 93 721 00 01 (urgències)</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-icon">✉️</span>
+            <div>
+              <strong>Correu electrònic</strong>
+              <p>info@foodlogistic.cat</p>
+              <p>comercial@foodlogistic.cat</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-icon">🕐</span>
+            <div>
+              <strong>Horari d'atenció</strong>
+              <p>Dilluns – Divendres: 8:00 – 19:00h</p>
+              <p>Dissabte: 9:00 – 14:00h</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formulari de contacte -->
+        <div class="contact-form-wrapper">
+          <form class="contact-form" id="contactForm" novalidate>
+
+            <!-- Nom -->
+            <div class="form-group">
+              <label for="nom">Nom complet *</label>
+              <input
+                type="text"
+                id="nom"
+                name="nom"
+                placeholder="El vostre nom i cognoms"
+                autocomplete="name"
+              />
+              <span class="form-error" id="error-nom"></span>
+            </div>
+
+            <!-- Correu electrònic -->
+            <div class="form-group">
+              <label for="email">Correu electrònic *</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="exemple@correu.cat"
+                autocomplete="email"
+              />
+              <span class="form-error" id="error-email"></span>
+            </div>
+
+            <!-- Telèfon -->
+            <div class="form-group">
+              <label for="telefon">Telèfon de contacte *</label>
+              <input
+                type="tel"
+                id="telefon"
+                name="telefon"
+                placeholder="+34 600 000 000"
+                autocomplete="tel"
+              />
+              <span class="form-error" id="error-telefon"></span>
+            </div>
+
+            <!-- Missatge -->
+            <div class="form-group">
+              <label for="missatge">Missatge *</label>
+              <textarea
+                id="missatge"
+                name="missatge"
+                rows="5"
+                placeholder="Expliqueu-nos en què us podem ajudar..."
+              ></textarea>
+              <span class="form-error" id="error-missatge"></span>
+            </div>
+
+            <!-- Botó enviar -->
+            <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+              <span class="btn-text">Enviar missatge 🚀</span>
+            </button>
+
+            <!-- Missatge d'èxit -->
+            <div class="form-success" id="formSuccess">
+              ✅ Missatge enviat correctament! Us contactarem aviat.
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       FOOTER
+  ================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <span class="logo-main">FOODLOGÍSTIC</span>
+          <span class="logo-sub">FRESH FOOD</span>
+          <p>Experts en logística alimentària des de 2004. Qualitat, rapidesa i confiança en cada lliurament.</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Navegació</h4>
+          <ul>
+            <li><a href="#inici">Inici</a></li>
+            <li><a href="#serveis">Serveis</a></li>
+            <li><a href="#sobre">Sobre nosaltres</a></li>
+            <li><a href="#contacte">Contacte</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Serveis</h4>
+          <ul>
+            <li><a href="#serveis">Transport Refrigerat</a></li>
+            <li><a href="#serveis">Emmagatzematge Frigorífic</a></li>
+            <li><a href="#serveis">Distribució Last Mile</a></li>
+            <li><a href="#serveis">Importació / Exportació</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contacte ràpid</h4>
+          <p>📞 +34 93 721 00 00</p>
+          <p>✉️ info@foodlogistic.cat</p>
+          <p>📍 Barberà del Vallès, Barcelona</p>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2024 FoodLogístic S.A. — Tots els drets reservats.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
