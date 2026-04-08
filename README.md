@@ -4,7 +4,7 @@ Aquesta és la web corporativa de FoodLogístic S.A., una empresa fictícia dedi
 
 ## Demostració
 
-[🌐 URL de la web](https://[usuari].github.io/[nom-del-repositori])
+[🌐 URL de la web](https://santimr2025.github.io/web_corporativa/)
 
 ## Tecnologies Utilitzades
 
