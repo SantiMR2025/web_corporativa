@@ -828,4 +828,35 @@ img {
   .stat strong {
     font-size: 1.6rem;
   }
+
+}
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--blue-dark);
+  color: var(--white);
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 3000;
+}
+
+.cookie-banner p {
+  max-width: 720px;
+  font-size: 0.9rem;
+}
+
+.cookie-banner a {
+  color: var(--green);
+  text-decoration: underline;
+}
+
+.cookie-buttons {
+  display: flex;
+  gap: 12px;
 }
