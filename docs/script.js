@@ -253,3 +253,24 @@ form.addEventListener('submit', (e) => {
     }, 6000);
   }, 1500);
 });
+
+const cookieBanner = document.getElementById('cookie-banner');
+const acceptCookies = document.getElementById('acceptCookies');
+const rejectCookies = document.getElementById('rejectCookies');
+
+// Si ja hi ha consentiment, no mostrem el banner
+if (localStorage.getItem('cookieConsent')) {
+  cookieBanner.style.display = 'none';
+}
+
+// Acceptar cookies
+acceptCookies.addEventListener('click', () => {
+  localStorage.setItem('cookieConsent', 'accepted');
+  cookieBanner.style.display = 'none';
+});
+
+// Rebutjar cookies
+rejectCookies.addEventListener('click', () => {
+  localStorage.setItem('cookieConsent', 'rejected');
+  cookieBanner.style.display = 'none';
+});
