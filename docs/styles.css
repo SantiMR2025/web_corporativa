@@ -860,3 +860,17 @@ img {
   display: flex;
   gap: 12px;
 }
+
+.hero-video-grid {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.hero-video-grid video {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.35);
+}
+``
